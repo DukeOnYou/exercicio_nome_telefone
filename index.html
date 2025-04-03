@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tabela Nome Telefone</title>
+</head>
+<body>
+    <div class="container"></div>
+        <form id="form">
+            <input type="text" id="nome" required placeholder="Insira o seu nome: ">
+            <input type="text" id="telefone" required placeholder="Insira o seu número: ">
+            <button type="submit" id="btn-submit">Enviar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th id="trNome">Nome</th>
+                    <th id="trTelefone">Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <span id="nomeTelefone"></span>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
